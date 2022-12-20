@@ -5,6 +5,9 @@ pascals triangle with python
 
 
 def pascal_triangle(n):
+  """
+  calculates pascals triangle
+  """
   triangle = []
   if n <= 0:
     return triangle
