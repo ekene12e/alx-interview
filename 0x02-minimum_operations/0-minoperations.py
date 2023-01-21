@@ -1,19 +1,17 @@
 #!/usr/bin/python3
+
 """
-This function computes the fewest number 
-of operations ( ctrl C, Ctrl V)
-needed to reach a particular
-number (n) of 'H' xters from a 
-single xter"""
+    Method that determines the number of minmum operations given n characters
+"""
 
 
 def minOperations(n):
     """
-    A function that calculates the fewest number of operations
-    needed to give a result of exactly n H characters in a file
-    args: n: Number of characters to be displayed
-    return:
-          number of min operations
+        A function that calculates the fewest number of operations
+        needed to give a result of exactly n H characters in a file
+        args: n: Number of characters to be displayed
+        return:
+               number of min operations
     """
 
     now = 1
